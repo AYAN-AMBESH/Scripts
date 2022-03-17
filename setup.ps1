@@ -8,7 +8,7 @@ if( Test-Path env:VIRTUAL_ENV)
     Exit
  }
 }
-$set_env = Read-Host 'Do you want to create virtual env? y/n :'
+$set_env = Read-Host 'Do you want to create new  virtual env? y/n :'
 if($set_env -eq 'y')
 {
     $env = Read-Host'Name your virtual enviorment: '
